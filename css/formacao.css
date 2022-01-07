@@ -29,7 +29,7 @@
   display: block;
   width: 130px;
   height: 120px;
-  background: url('./img/Detalhe.svg') no-repeat center;
+  background: url('../img/Detalhe.svg') no-repeat center;
   position: absolute;
   bottom: -50px;
 }
@@ -101,11 +101,11 @@
 }
 
 .courses h2::before {
-  background: url('./img/cursos.svg') no-repeat center center;
+  background: url('../img/cursos.svg') no-repeat center center;
 }
 
 .languages h2::before {
-  background: url('./img/idiomas.svg') no-repeat center center;
+  background: url('../img/idiomas.svg') no-repeat center center;
 }
 
 .training__extra li {

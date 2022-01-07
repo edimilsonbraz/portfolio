@@ -23,7 +23,7 @@
   display: block;
   width: 130px;
   height: 100px;
-  background: url(./img/Detalhe.svg) no-repeat center center;
+  background: url(../img/Detalhe.svg) no-repeat center center;
   position: absolute;
   top: -15px;
   left: -40px;
@@ -49,6 +49,10 @@
   }
 }
 @media (max-width: 800px) {
+  .introducao img {
+    width: 70%;
+    /* height: 70%; */
+  }
   .introducao {
     grid-template-columns: 1fr 1fr;
     gap: 40px;
