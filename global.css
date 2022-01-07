@@ -6,7 +6,6 @@
 body {
   font-family: "Fira Sans", Arial, sans-serif;
   color: var(--c12);
-  margin-bottom: 1000px;
 }
 
 ul {
@@ -42,4 +41,11 @@ img {
   word-break: break-all;  
   text-transform: uppercase;
   max-width: 4ch;
+}
+@media (max-width: 800px) {
+  .sub-title {
+    font-size: 3rem;
+    text-transform: capitalize;
+    max-width: initial !important;
+  }
 }

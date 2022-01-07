@@ -1,0 +1,147 @@
+.formacao {
+  background-color: var(--c12);
+  color: #ffffff;
+}
+.formation {
+  padding: 120px 20px;
+  position: relative;
+}
+.formacao .sub-title {
+  color: #000000;
+  max-width: 5ch;
+}
+
+.formation__text {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  color: var(--c10);
+  max-width: 36ch;
+  margin-bottom: 60px;
+  color: var(--c5);
+}
+.formation__text strong {
+  color: #ffffff;
+}
+
+/* Detalhe */
+.formation::after {
+  content: '';
+  display: block;
+  width: 130px;
+  height: 120px;
+  background: url('./img/Detalhe.svg') no-repeat center;
+  position: absolute;
+  bottom: -50px;
+}
+
+.graduate__list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+}
+
+.graduate {
+  background-color: #000000;
+  border-radius: 4px;
+  padding: 18px;
+  max-width:  220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  position: relative;
+  flex: 1;
+}
+.graduate__type {
+  margin-bottom: 40px;
+}
+.graduate__course {
+  margin-bottom: 40px;
+}
+.graduate__course::before {
+  content: " ";
+  display: block;
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(#b6f829, #67dd0a);
+  position: absolute;
+  left: 0px;
+}
+.graduate span {
+  text-transform: uppercase;
+  line-height: 20px;
+  font-size: 0.875rem;
+  color: var(--c8);
+}
+.graduate h2 {
+  font-size: 0.875rem;
+}
+
+.courses {
+  margin-bottom: 60px;
+}
+
+.training__extra h2 {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: var(--c6);
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  position: relative;
+}
+.training__extra h2::before {
+  content: " ";
+  display: block;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: -36px;
+  top: -4px;
+}
+
+.courses h2::before {
+  background: url('./img/cursos.svg') no-repeat center center;
+}
+
+.languages h2::before {
+  background: url('./img/idiomas.svg') no-repeat center center;
+}
+
+.training__extra li {
+  font-size: 1.125rem;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+.training__extra span {
+  color: var(--c6);
+}
+
+.courses li {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+/* RESPONSIVO */
+@media (max-width: 800px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+  .formation {
+    padding: 60px 20px;
+    gap: 40px;
+  }
+  .formation .sub-title {
+    color: #fff;
+
+  }
+  .formation .formation__text {
+    font-size: 1.125rem;
+  }
+  .training__extra h2::before {
+    position: initial;
+    margin-bottom: 10px;
+  }
+}

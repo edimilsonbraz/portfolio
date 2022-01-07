@@ -29,6 +29,9 @@
   left: -40px;
   z-index: -1;
 }
+/* .introducao__text {
+  margin-left: 90px;
+} */
 .introducao__text p {
   font-size: 1.5rem;
   color: var(--c10);
@@ -54,9 +57,9 @@
     font-size: 3rem;
   }
   .introducao h1::before {
-    width:70px;
-    height: 65px;
-    border-radius: 50%;
+    width:100px;
+    height: 70px;
+    background-size: 70%;
     top: 0;
     left: -20px;
   }
@@ -79,11 +82,8 @@
     line-height: 70px;
   }
   .introducao h1::before {
-    width:30px;
-    height: 25px;
-    border-radius: 50%;
-    top: 5px;
-    left: 110px;
-    display: inline-block;
+    
+    top: -5px;
+    left: 52px;
   }
 }
