@@ -23,12 +23,27 @@
   padding: 10px 20px;
   color: var(--c10);
   display: block;
+  position: relative;
+  
 }
 
+.header-menu a::after {
+  content: "";
+  display: block;
+  width: 65px;
+  height: 8px;
+  opacity: 0;
+  background-color: #b6f829;
+  position: absolute;
 
+}
+.header-menu a:hover::after {
+  width: 65px;
+  height: 4px;
+  opacity: 1;
+  transition: all 200ms ;
 
-
-
+}
 
 
 /* RESPONSIVIDADE */
