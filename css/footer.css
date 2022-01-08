@@ -1,6 +1,9 @@
 .footer {
   background-color: #000000;
 }
+.footer h1 {
+  color: var(--c12);
+}
 .footer .container {
   padding: 120px 20px 20px;
 }

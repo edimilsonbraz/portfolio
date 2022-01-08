@@ -1,0 +1,62 @@
+.cursos {
+  background-color: var(--c12);
+  color: #ffffff;
+}
+
+.cursos h1 {
+  color: var(--c11);
+  max-width: 4ch;
+}
+
+.courses {
+  padding: 120px 20px 60px;
+  position: relative;
+}
+
+.courses li {
+  border-bottom: 1px solid #242424;
+}
+
+.training__extra h2 {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: var(--c6);
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  position: relative;
+}
+.training__extra h2::before {
+  content: " ";
+  display: block;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: -36px;
+  top: -4px;
+}
+
+.courses h2::before {
+  background: url('../img/cursos.svg') no-repeat center center;
+}
+
+.languages {
+  margin-top: 60px;
+}
+
+.languages h2::before {
+  background: url('../img/idiomas.svg') no-repeat center center;
+}
+
+.training__extra li {
+  font-size: 1.125rem;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+.training__extra span {
+  color: var(--c6);
+}
+
+.courses li {
+  display: flex;
+  justify-content: space-between;
+}

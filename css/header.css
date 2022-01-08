@@ -45,6 +45,20 @@
 
 }
 
+.introducao__text a {
+  background-color: #b6f829;
+  color: #365000;
+  font-size: 1.125rem;
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 15px 36px;
+  border-radius: 4px;
+  margin-top: 40px;
+  transition: color 300ms;
+}
+.introducao__text a:hover {
+  background-color: #67DD0A;
+}
 
 /* RESPONSIVIDADE */
 @media (max-width: 800px) {
