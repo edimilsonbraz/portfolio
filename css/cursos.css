@@ -18,7 +18,7 @@
 }
 
 .training__extra h2 {
-  font-size: 0.875rem;
+  font-size: 1.5rem;
   line-height: 1.4;
   color: var(--c6);
   text-transform: uppercase;
@@ -32,7 +32,7 @@
   height: 24px;
   position: absolute;
   left: -36px;
-  top: -4px;
+  top: 2px;
 }
 
 .courses h2::before {
@@ -59,4 +59,15 @@
 .courses li {
   display: flex;
   justify-content: space-between;
+}
+
+/* Detalhe */
+.courses::after {
+  content: '';
+  display: block;
+  width: 130px;
+  height: 120px;
+  background: url('../img/Detalhe.svg') no-repeat center;
+  position: absolute;
+  bottom: -50px;
 }
