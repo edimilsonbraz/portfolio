@@ -5,29 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Desenvolver Front End e UI Design Localizado em Brasília - Distrito Federal">
+    <!-- FAVICON -->
     <link rel="icon" href="./img/Favicon.svg " type="image/svg+xml" />
+    <!-- CSS -->
     <!-- <link rel="stylesheet" href="./css/style.min.css" /> -->
     <link rel="stylesheet" href="./css/style.css" />
+    <!-- FONTE -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!-- ICONES -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <title>Edimilson | Developer Front End</title>
     
   </head>
   <body>
-    <header class="header">
-      <img src="./img/marca.svg" alt="imagem Edimilson Braz" width="316" height="40"/>
-     
-      <nav>
-        <ul class="header-menu">
-          <li><a href="index.html" id="home">Início</a></li>
-          <li><a href="#experiencia">Experiência</a></li>
-          <li><a href="#formacao">Formação</a></li>
-          <li><a href="#cursos">Cursos</a></li>
-          <li><a href="#contato">Contato</a></li>
-        </ul>
-      </nav>
+    <header>
+      <div class="header">
+        <img src="./img/marca-cinza-escuro.svg" alt="imagem Edimilson Braz" width="316" height="40"/>
+      
+        <nav>
+          <ul class="header-menu">
+            <li><a href="index.html" id="home">Início</a></li>
+            <li><a href="#experiencia">Experiência</a></li>
+            <li><a href="#formacao">Formação</a></li>
+            <li><a href="#cursos">Cursos</a></li>
+            <li><a href="#contato">Contato</a></li>
+            <li>
+              <ul class="social-media">
+                <li><i class="fab fa-instagram"></i></li>
+                <li><i class="fab fa-linkedin-in"></i></li>
+                <li><i class="fab fa-github-alt"></i></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <main class="container introducao">
@@ -43,73 +57,75 @@
       </div>
     </main>
 
-    <section class="container experience" id="experiencia" aria-label="Experiencia">
-      <h1 class="sub-title">Experiência</h1>
-      <div class="content">
-        <p class="experience__text">
-          Desenvolvo pequenos projetos usando as melhores tecnologias do mercado
-          com <strong>HTML</strong> , <strong>CSS</strong> e
-          <strong>JAVASCRIPT</strong> para aplicativos web.
-        </p>
-      
-
-        <div class="work">
-          <span class="work__year">2018</span>
-          <h2 class="work__title">Bikcraft</h2>
-          <span class="work__title">Desenvolvedor júnior</span>
-          <p class="work__text">
-            Desenvolvo pequenos projetos usando as melhores 
-            tecnologias do mercado com HTML, CSS e JAVASCRIPT 
-            para aplicativos web.
+    <section class="experience" id="experiencia" aria-label="Experiencia">
+      <div class="container">
+        <h1 class="sub-title">Experiência<span>.</span></h1> 
+        <div class="content">
+          <p class="experience__text">
+            Desenvolvo pequenos projetos usando as melhores tecnologias do mercado
+            com <strong>HTML</strong> , <strong>CSS</strong> e
+            <strong>JAVASCRIPT</strong> para aplicativos web.
           </p>
-          <ul class="work__ability">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JAVASCRIPT</li>
-            <li>UX DESIGN</li>
-            <li>UI DESIGN</li>
-          </ul>
-        </div>
+        
 
-        <div class="work">
-          <span class="work__year">2019</span>
-          <h2 class="work__title">Foodfy</h2>
-          <span class="work__title">Curso Front-End</span>
-          <p class="work__text">
-            Desenvolvo pequenos projetos usando as melhores tecnologias 
-            do mercado com HTML, CSS e JAVASCRIPT para aplicativos web.
-          </p>
-          <ul class="work__ability">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JAVASCRIPT</li>
-            <li>NODEJS</li>
-            <li>POSTGRESQL</li>
-            <li>UI DESIGN</li>
-          </ul>
-        </div>
+          <div class="work">
+            <span class="work__year">2018</span>
+            <h2 class="work__title">Bikcraft</h2>
+            <span class="work__title">Desenvolvedor júnior</span>
+            <p class="work__text">
+              Desenvolvo pequenos projetos usando as melhores 
+              tecnologias do mercado com HTML, CSS e JAVASCRIPT 
+              para aplicativos web.
+            </p>
+            <ul class="work__ability">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JAVASCRIPT</li>
+              <li>UX DESIGN</li>
+              <li>UI DESIGN</li>
+            </ul>
+          </div>
 
-        <div class="work">
-          <span class="work__year">2021</span>
-          <h2 class="work__title">DH Flix</h2>
-          <span class="work__title">Certified Tech Developer</span>
-          <p class="work__text">
-            Desenvolvo pequenos projetos usando as melhores 
-            tecnologias do mercado com HTML, CSS e JAVASCRIPT 
-            para aplicativos web.
-          </p>
-          <ul class="work__ability">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>BOOTSTRAP</li>
-          </ul>
+          <div class="work">
+            <span class="work__year">2019</span>
+            <h2 class="work__title">Foodfy</h2>
+            <span class="work__title">Curso Front-End</span>
+            <p class="work__text">
+              Desenvolvo pequenos projetos usando as melhores tecnologias 
+              do mercado com HTML, CSS e JAVASCRIPT para aplicativos web.
+            </p>
+            <ul class="work__ability">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JAVASCRIPT</li>
+              <li>NODEJS</li>
+              <li>POSTGRESQL</li>
+              <li>UI DESIGN</li>
+            </ul>
+          </div>
+
+          <div class="work">
+            <span class="work__year">2021</span>
+            <h2 class="work__title">DH Flix</h2>
+            <span class="work__title">Certified Tech Developer</span>
+            <p class="work__text">
+              Desenvolvo pequenos projetos usando as melhores 
+              tecnologias do mercado com HTML, CSS e JAVASCRIPT 
+              para aplicativos web.
+            </p>
+            <ul class="work__ability">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>BOOTSTRAP</li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
 
     <section class="formacao" id="formacao" aria-label="Formação">
       <div class="container formation">
-        <h1 class="sub-title">Formação</h1>
+        <h1 class="sub-title">Formação<span>.</span></h1>
         <div class="content">
           <p class="formation__text">
             Minha Mais recente formação acadêmica foi <strong>Bacharel</strong> em <strong>Sistema de Informação</strong> . Além disso me mantenho sempre atualizado com cursos intensivos online.
@@ -134,7 +150,7 @@
 
     <section class="cursos" id="cursos" aria-label="Cursos">
       <div class="container courses">
-        <h1 class="sub-title">Cursos</h1>
+        <h1 class="sub-title">Cursos<span>.</span></h1>
         <div class="training__extra">
           <div class="course">
             <h2 class="course__type">Cursos Intensivos</h2>
@@ -155,11 +171,11 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <footer class="footer" id="contato">
       <div class="container">
-        <h1 class="sub-title">Contato</h1>
+        <h1 class="sub-title">Contato<span>.</span></h1>
 
         <div class="description">
           <p class="footer__text">
@@ -168,18 +184,9 @@
           </p>
 
           <ul class="social-midias">
-            <li>
-              <img src="./img/gmail.svg" alt="imagem gmail" width="24" height="24">
-              <a href="mailto:edimilson.gt8@gmail.com" rel="noreferrer" target="_blank">Meu melhor Email</a>              
-            </li>
-            <li>
-              <img src="./img/github.svg" alt="imagem github" width="24" height="24">
-              <a href="https://github.com/edimilsonbraz" rel="noreferrer" target="_blank">Meus Projetos</a>
-            </li>
-            <li>
-              <img src="./img/linkedin.svg" alt="imagem linkedin" width="24" height="24">
-              <a href="https://www.linkedin.com/in/edimilsonbraz/" rel="noreferrer" target="_blank">Minha Rede</a>
-            </li>
+            <li><i class="fab fa-instagram"></i></li>
+            <li><i class="fab fa-linkedin-in"></i></li>
+            <li><i class="fab fa-github-alt"></i></li>
           </ul>
         </div>
         <p class="footer__copy">© Edimilson Braz | Alguns Direitos Reservados</p>

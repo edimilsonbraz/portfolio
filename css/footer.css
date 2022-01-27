@@ -1,8 +1,8 @@
 .footer {
-  background-color: #000000;
+  background-color: #FAFAFA;
 }
 .footer h1 {
-  color: var(--c12);
+  color: var(--c10);
 }
 .footer .container {
   padding: 120px 20px 20px;
@@ -11,33 +11,30 @@
 .description .footer__text {
   font-size: 1.5rem;
   line-height: 1.4;
-  color: var(--c3);
+  color: var(--c11);
   margin-bottom: 60px;
 }
 .description img {
   display: inline-block;
 }
 .footer .social-midias {
-  color: #ffffff;
+  color: var(--c11);
+  display: flex;
+  gap: 30px;
 }
 .footer .social-midias li {
-  display: flex;
-  gap: 10px;
-  align-items: center;
   margin-bottom: 15px;
 }
-.social-midias li a {
-  color: #ffffff;
-  font-size: 1.5rem;
-  font-weight: bold;
-  line-height: 1.1;
-  transition: color 200ms;
+.footer .social-midias li i { 
+  font-size: 2rem;
+  transition: .4s;
 }
-.social-midias li a:hover {
+.footer .social-midias li i:hover {
   color: #67dd0a;
 }
 
 .footer__copy {
+  background-color: var(--c11);
   grid-column: 1 / -1;
   color: var(--c6);
   font-size: 1.125rem;

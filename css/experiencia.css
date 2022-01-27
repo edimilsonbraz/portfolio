@@ -1,5 +1,9 @@
+.experience {
+  width: 100%;
+  border-bottom: 1px solid #DDDDDD;
+}
 .experience h1 {
-  color: var(--c3);
+  color: var(--c10);
 }
 .experience__text {
   font-size: 1.5rem;
