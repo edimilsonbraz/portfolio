@@ -37,6 +37,20 @@
   color: var(--c10);
 }
 
+.introducao__text a {
+  background-color: #b6f829;
+  color: #365000;
+  font-size: 1.125rem;
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 15px 36px;
+  border-radius: 4px;
+  margin-top: 40px;
+  transition: .4s;
+}
+.introducao__text a:hover {
+  background-color: #67DD0A;
+}
 
 
 /* RESPONSIVIDADE */

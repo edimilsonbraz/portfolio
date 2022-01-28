@@ -3,9 +3,12 @@
   border-bottom: 1px solid #DDDDDD;
 }
 
-.cursos h1 {
+.cursos .sub-title {
   color: var(--c10);
   max-width: 4ch;
+}
+.cursos .sub-title span {
+  color: #67dd0a;
 }
 
 .courses {

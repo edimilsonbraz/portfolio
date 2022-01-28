@@ -1,0 +1,122 @@
+.portfolio-content {
+  margin-bottom: 2rem;
+}
+
+.portfolio-top .content-top {
+  display: flex ;
+  align-items: center;
+  gap: 80px;
+  padding: 4rem;
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+.border-top {
+  border-bottom: 1px solid #DDDDDD;
+}
+.portfolio-top .content-top-title .title {
+  color: var(--c10);
+  font-size: 6rem;
+  line-height: 1;
+  word-break: break-all;  
+  text-transform: uppercase;
+  /* max-width: 4ch; */
+}
+.portfolio-top .content-top-title p {
+  font-size: 1.2rem;
+  color: var(--c8);
+}
+.portfolio-top .title span {
+  color: #67dd0a;
+}
+
+.portfolio-top .content-top img {
+  max-width: 450px;
+  height: auto;
+}
+
+
+/* CONTEUDO PRINCIPAL */
+.portfolio-content {
+  background-color: #FAFAFA;;
+  padding: 3rem;
+}
+.portfolio-content .portfolio-list {
+  display: flex;
+  padding: 2rem 0;
+}
+
+.portfolio-content .portfolio-list .first-portfolio {
+  width: 30%;
+  height: 615px;
+  margin: 0 2%;
+  background-image: url("../img/bikcraft.jpg");
+  background-position: center center;
+  position: relative;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.portfolio-content .other-portfolio-content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 68%;
+}
+
+.portfolio-content .other-portfolio-content .portfolio-card {
+  width: 46%;
+  height: 300px;
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 15px;
+  margin-right: 15px;
+}
+
+.portfolio-content .other-portfolio-content #portfolio2 {
+  background-image: url("../img/podcastr.jpg");
+}
+.portfolio-content .other-portfolio-content #portfolio3 {
+  background-image: url("../img/electrum.jpg");
+}
+.portfolio-content .other-portfolio-content #portfolio4 {
+  background-image: url("../img/beautSalon.jpg");
+}
+.portfolio-content .other-portfolio-content #portfolio5 {
+  background-image: url("../img/moveit.jpg");
+}
+
+.portfolio-content .portfolio-card-cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 1.75rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 3px solid #67dd0a;
+}
+
+
+.portfolio-content .portfolio-card-cover .portfolio-card-title {
+  text-align: center;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 2.2rem;
+  transition: 0.5s;
+}
+.portfolio-content .portfolio-card-cover .portfolio-card-description {
+  text-align: center;
+  color: #FFF;
+  padding: 1rem;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+}
+.portfolio-content .portfolio-list .portfolio-card-cover , .portfolio-content .portfolio-card-cover {
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.portfolio-content .portfolio-list .portfolio-card-cover:hover, .portfolio-content .portfolio-card-cover:hover {
+  opacity: 1;
+}
+

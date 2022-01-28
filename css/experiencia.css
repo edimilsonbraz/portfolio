@@ -2,8 +2,11 @@
   width: 100%;
   border-bottom: 1px solid #DDDDDD;
 }
-.experience h1 {
+.experience .sub-title {
   color: var(--c10);
+}
+.experience .sub-title span {
+  color: #67dd0a;
 }
 .experience__text {
   font-size: 1.5rem;

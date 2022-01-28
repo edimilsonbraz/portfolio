@@ -23,7 +23,9 @@
   <body>
     <header>
       <div class="header">
-        <img src="./img/marca-cinza-escuro.svg" alt="imagem Edimilson Braz" width="316" height="40"/>
+        <a href="index.html">
+          <img src="./img/marca-cinza-escuro.svg" alt="imagem Edimilson Braz" width="316" height="40"/>
+        </a>
       
         <nav>
           <ul class="header-menu">
@@ -34,9 +36,9 @@
             <li><a href="#contato">Contato</a></li>
             <li>
               <ul class="social-media">
-                <li><i class="fab fa-instagram"></i></li>
                 <li><i class="fab fa-linkedin-in"></i></li>
                 <li><i class="fab fa-github-alt"></i></li>
+                <li><i class="fab fa-instagram"></i></li>
               </ul>
             </li>
           </ul>
@@ -53,7 +55,7 @@
         </h1>
         <p>Brasília - Distrito Federal</p>
 
-        <a href="#">Ver Portfólio</a>
+        <a href="portfolio.html">Ver Portfólio</a>
       </div>
     </main>
 
@@ -173,30 +175,44 @@
       </div>
     </section>
 
-    <footer class="footer" id="contato">
+    <section class="contato" id="contato">
       <div class="container">
         <h1 class="sub-title">Contato<span>.</span></h1>
 
         <div class="description">
-          <p class="footer__text">
+          <p class="contato__text">
             Estou disponível para novos projetos no momento.
             Entre em contato comigo e marcaremos uma conversa.<img src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif" width="30px">
           </p>
 
           <ul class="social-midias">
-            <li><i class="fab fa-instagram"></i></li>
-            <li><i class="fab fa-linkedin-in"></i></li>
-            <li><i class="fab fa-github-alt"></i></li>
+            <li>
+              <a href="mailto:edimilson.gt8@gmail.com" rel="noreferrer" target="_blank"><i class="fas fa-mail-bulk"></i>
+              </a> 
+            </li>
+            <li>
+              <a href="https://github.com/edimilsonbraz" rel="noreferrer" target="_blank"><i class="fab fa-github-alt"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/edimilsonbraz/" rel="noreferrer" target="_blank"><i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
           </ul>
         </div>
-        <p class="footer__copy">© Edimilson Braz | Alguns Direitos Reservados</p>
       </div>
+    </section>
+
+    <footer class="footer">
+      <p class="footer__copy">© Edimilson Braz | Todos os Direitos Reservados</p>
     </footer>
+
     <a href="#home">
       <span class="material-icons-outlined back-to-top">
         north
       </span>
     </a>
+
     <script src="./js/main.js"></script>
   </body>
 </html>

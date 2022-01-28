@@ -1,57 +1,7 @@
-.footer {
-  background-color: #FAFAFA;
-}
-.footer h1 {
-  color: var(--c10);
-}
-.footer .container {
-  padding: 120px 20px 20px;
-}
-
-.description .footer__text {
-  font-size: 1.5rem;
-  line-height: 1.4;
-  color: var(--c11);
-  margin-bottom: 60px;
-}
-.description img {
-  display: inline-block;
-}
-.footer .social-midias {
-  color: var(--c11);
-  display: flex;
-  gap: 30px;
-}
-.footer .social-midias li {
-  margin-bottom: 15px;
-}
-.footer .social-midias li i { 
-  font-size: 2rem;
-  transition: .4s;
-}
-.footer .social-midias li i:hover {
-  color: #67dd0a;
-}
-
 .footer__copy {
   background-color: var(--c11);
-  grid-column: 1 / -1;
-  color: var(--c6);
   font-size: 1.125rem;
-}
-
-
-
-/* RESPONSIVO */
-@media (max-width: 800px) {
-  .footer .container {
-    grid-template-columns: 1fr;
-    gap: 40px;
-  }
-  .formation::after {
-      width:100px;
-      height: 70px;
-      background-size: 70%;
-      bottom: -40px;
-  }
+  text-align: center;
+  padding:25px;
+  color: var(--c6);
 }
