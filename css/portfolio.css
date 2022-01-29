@@ -6,8 +6,6 @@
   display: flex ;
   align-items: center;
   justify-content: space-between;
-  /* gap: 80px;
-  padding: 4rem; */
   max-width: 1200px;
   margin: 0 auto 4rem;
 
@@ -21,7 +19,6 @@
   line-height: 1;
   word-break: break-all;  
   text-transform: uppercase;
-  /* max-width: 4ch; */
 }
 .portfolio-top .content-top-title p {
   font-size: 1.2rem;
@@ -34,6 +31,7 @@
 .portfolio-top .content-top img {
   max-width: 450px;
   height: auto;
+  border-radius: 4px;
   box-shadow: 0 4px 4px 0px rgb(0 0 0 / 20%);
 }
 
@@ -50,79 +48,75 @@
 .portfolio-content .portfolio-list {
   display: flex;
   padding: 2rem 0;
-}
-
-.portfolio-content .portfolio-list .first-portfolio {
-  width: 30%;
-  height: 930px;
-  margin: 0 2%;
-  background-image: url("../img/bikcraft.jpg");
-  background-position: center top left;
-  background-repeat: no-repeat;
-  position: relative;
-  cursor: pointer;
-  transition: 0.5s;
-  border: 1px solid #DDD;
-  box-shadow: 0 1px 4px 0px rgb(0 0 0 / 20%);
+  max-width: 1200px; 
+  margin: 0 auto;
 }
 
 .portfolio-content .other-portfolio-content {
   display: flex;
   flex-wrap: wrap;
-  width: 68%;
+  width: 100%;
 }
 
 .portfolio-content .other-portfolio-content .portfolio-card {
-  width: 46%;
-  height: 300px;
+  width: 385px;
+  height: 250px;
+  border-radius: 4px;
   position: relative;
   cursor: pointer;  
   margin-bottom: 15px;
   margin-right: 15px;
 }
 
+.portfolio-content .other-portfolio-content #portfolio1 {
+  background-image: url("../img/foodfy.jpg");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  border: 1px solid #DDD;
+  box-shadow: 0 1px 4px 0px rgb(0 0 0 / 20%);
+}
+
 .portfolio-content .other-portfolio-content #portfolio2 {
   background-image: url("../img/podcastr.jpg");
-  background-position: center left top;
+  background-size: cover;
+  background-position: center top;
   background-repeat: no-repeat;
   border: 1px solid #DDD;
   box-shadow: 0 1px 4px 0px rgb(0 0 0 / 20%);
 }
 .portfolio-content .other-portfolio-content #portfolio3 {
+
   background-image: url("../img/electrum.jpg");
-  background-position: center top left;
-  background-repeat: no-repeat;
-  border: 1px solid #DDD;
-  box-shadow: 0 1px 4px 0px rgb(0 0 0 / 20%);
-
-}
-.portfolio-content .other-portfolio-content #portfolio4 {
-  background-image: url("../img/beautySalon.jpg");
-  background-position: center ;
-  background-repeat: no-repeat;
-  border: 1px solid #DDD;
-  box-shadow: 0 1px 4px 0px rgb(0 0 0 / 20%);
-
-}
-.portfolio-content .other-portfolio-content #portfolio5 {
-  background-image: url("../img/foodfy.jpg");
+  background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
   border: 1px solid #DDD;
   box-shadow: 0 1px 4px 0px rgb(0 0 0 / 20%);
 
 }
-.portfolio-content .other-portfolio-content #portfolio6 {
-  background-image: url("../img/moveit.jpg");
-  background-position: center top left;
+.portfolio-content .other-portfolio-content #portfolio4 {
+  background-image: url("../img/bikcraft.jpg");
+  background-size: cover;
+  background-position: center top;
   background-repeat: no-repeat;
   border: 1px solid #DDD;
   box-shadow: 0 1px 4px 0px rgb(0 0 0 / 20%);
 
 }
-.portfolio-content .other-portfolio-content #portfolio7 {
-  background-image: url("../img/gallery.jpg");
+
+.portfolio-content .other-portfolio-content #portfolio5 {
+  background-image: url("../img/beautySalon.jpg");
+  background-size: cover;
   background-position: center top left;
+  background-repeat: no-repeat;
+  border: 1px solid #DDD;
+  box-shadow: 0 1px 4px 0px rgb(0 0 0 / 20%);
+}
+.portfolio-content .other-portfolio-content #portfolio6 {
+  background-image: url("../img/gallery.jpg");
+  background-size: cover;
+  background-position: center top;
   background-repeat: no-repeat;
   border: 1px solid #DDD;
   box-shadow: 0 1px 4px 0px rgb(0 0 0 / 20%);

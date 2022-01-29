@@ -8,7 +8,10 @@
   gap: 100px;
   
 }
-
+.introducao {
+  padding: 40px 20px;
+  /* border-bottom: 1px solid #DDDDDD; */
+}
 .introducao h1 {
   font-size: 4.5rem;
   margin-bottom: 40px;

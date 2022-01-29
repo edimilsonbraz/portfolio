@@ -32,26 +32,27 @@ header {
   border-color: #b6f829;
 }
 
-.header-menu .social-media {
-  display: flex;
+.header-menu .dark-mode {
   margin-left: 50px;
-  gap: 20px
 }
-.header-menu .social-media li {
+.header-menu .dark-mode li {
   color: #FFF;
   line-height: 42px;
   cursor: pointer;
 }
 
-.header-menu .social-media li i {
+.header-menu .dark-mode li i {
   font-size: 1.5rem;
   transition: .4s;
 }
-.header-menu .social-media li i:hover {
+.header-menu .dark-mode li i:hover {
   color: #b6f829;
 }
 
-
+#icon-dark {
+  width: 30px;
+  cursor: pointer;
+}
 
 /* RESPONSIVIDADE */
 @media (max-width: 800px) {
