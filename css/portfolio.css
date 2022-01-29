@@ -40,10 +40,16 @@
   box-shadow: 0 15px 40px 0px rgb(0 0 0 / 20%);
 }
 
-/* CONTEUDO PRINCIPAL */
+
+/*========== CONTEUDO PRINCIPAL =============*/
+
 .portfolio-content {
   background-color: #FAFAFA;;
   padding: 3rem;
+}
+.portfolio-content .arrow-back img {
+  color: #67dd0a;
+  cursor: pointer;
 }
 .portfolio-content .portfolio-list {
   display: flex;
