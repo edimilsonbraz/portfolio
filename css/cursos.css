@@ -11,14 +11,78 @@
   color: #67dd0a;
 }
 
-.courses {
-  padding: 120px 20px 60px;
+/* CURSOS */
+.secondary-bar-progress {
+  height: 12px;
+  width: 550px;
+  background-color: #CCC;
   position: relative;
 }
+.content-progress-course {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+.course .content-progress .content-progress-course p {
+  color: var(--c10);
 
-.courses li {
-  border-bottom: 1px solid rgb(235, 235, 235);
-  color: var(--c11);
+  text-align: right;
+}
+.secondary-bar-progress .progress-bar-100{
+  position: absolute;
+  height: 100%;
+  max-width: 100%;
+  background-color: #0fd439;
+  animation: progress-animation 5s;
+  animation-fill-mode: forwards;
+}
+.secondary-bar-progress .progress-bar-95{
+  position: absolute;
+  height: 100%;
+  max-width: 95%;
+  background-color: #0fd439;
+  animation: progress-animation 5s;
+  animation-fill-mode: forwards;
+}
+.secondary-bar-progress .progress-bar-90{
+  position: absolute;
+  height: 100%;
+  max-width: 90%;
+  background-color: #0fd439;
+  animation: progress-animation 5s;
+  animation-fill-mode: forwards;
+}
+.secondary-bar-progress .progress-bar-75{
+  position: absolute;
+  height: 100%;
+  max-width: 75%;
+  background-color: #0fd439;
+  animation: progress-animation 5s;
+  animation-fill-mode: forwards;
+}
+.secondary-bar-progress .progress-bar-50{
+  position: absolute;
+  height: 100%;
+  max-width: 50%;
+  background-color: #0fd439;
+  animation: progress-animation 5s;
+  animation-fill-mode: forwards;
+}
+
+.secondary-bar-progress .progress-bar-5{
+  position: absolute;
+  height: 100%;
+  max-width: 5%;
+  background-color: #0fd439;
+  animation: progress-animation 5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes progress-animation{
+  0% { width: 0%; } 
+  100% { width: 100%}
 }
 
 .training__extra h2 {
@@ -58,20 +122,4 @@
 }
 .training__extra span {
   color: var(--c11);
-}
-
-.courses li {
-  display: flex;
-  justify-content: space-between;
-}
-
-/* Detalhe */
-.courses::after {
-  content: '';
-  display: block;
-  width: 130px;
-  height: 120px;
-  background: url('../img/Detalhe.svg') no-repeat center;
-  position: absolute;
-  bottom: -50px;
 }
