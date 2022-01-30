@@ -14,12 +14,9 @@
     <!-- <link rel="stylesheet" href="./css/style.min.css" /> -->
     <link rel="stylesheet" href="./css/style.css" />
     <!-- FONTE -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;300;400;600;700;900&display=swap" rel="stylesheet">
     <!-- ICONES -->
     <link
       rel="stylesheet"
@@ -143,19 +140,23 @@
             sempre atualizado com cursos intensivos online.
           </p>
 
-          <ul class="graduate__list">
-            <li class="graduate">
-              <span class="graduate__type">Bacharel</span>
-              <h2 class="graduate__course">Sistema de Informação</h2>
-              <span graduate__institution>Anhanguera</span>
-            </li>
+          <div class="container-card">
+            <div class="box">
+              <h2 class="name">Sistema de Informação</h2>
+              <!-- <a href="#" class="buy">Buy Now</a> -->
+              <div class="circle"></div>
+              <img src="img/logo_anhanguera.png" class="product">
+            </div>
+         
+          
+            <div class="box box-2">
+              <h2 class="name">Certified Tech Developer</h2>
+              <!-- <a href="#" class="buy">Buy Now</a> -->
+              <div class="circle-2"></div>
+              <img src="img/logo-ctd.png" class="product">
+            </div>
+          </div>
 
-            <li class="graduate">
-              <span class="graduate__type">Front End | Especialista</span>
-              <h2 class="graduate__course">Certified Tech Developer</h2>
-              <span graduate__institution>Digital House</span>
-            </li>
-          </ul>
         </div>
       </div>
     </section>
@@ -349,5 +350,12 @@
     </a>
 
     <script src="./js/main.js"></script>
+    <script src="./js/vanilla-tilt.min.js"></script>
+    <script>
+      VanillaTilt.init(document.querySelectorAll(".box"), {
+      max: 25,
+      speed: 400
+      });
+    </script>
   </body>
 </html>

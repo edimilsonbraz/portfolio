@@ -78,6 +78,136 @@
 }
 
 
+/* ======================= */
+.formation .container-card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  transform-style: preserve-3d;
+
+}
+.formation .container-card .box {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  margin: 20px;
+  background-color: #232323;
+  border-radius: 10px;
+  transform-style: preserve-3d;
+}
+
+.formation .container-card .box::before {
+  content:'BACHAREL';
+  position: absolute;
+  top: 35px; 
+  left: 35px;   
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #fff;
+  font-style: italic; 
+  opacity: 0;
+  transition: 0.5s;
+}
+.formation .container-card .box::after {
+  content:'ANHANGUERA';
+  position: absolute;
+  bottom: 30px; 
+  right: 30px;   
+  font-size: 2rem;
+  font-weight: 900;
+  color: #fff;
+  font-style: italic; 
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.formation .container-card .box-2::before {
+  content:'FRONT-END DEVELOPER';
+  position: absolute;
+  top: 35px; 
+  left: 35px;   
+  font-size: 2rem;
+  font-weight: 900;
+  color: #fff;
+  font-style: italic; 
+  opacity: 0;
+  transition: 0.5s;
+}
+.formation .container-card .box-2::after {
+  content:'DIGITAL HOUSE';
+  position: absolute;
+  bottom: 30px; 
+  right: 20px;   
+  font-size: 2rem;
+  font-weight: 900;
+  color: #fff;
+  font-style: italic; 
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.container-card .box:hover::before,
+.container-card .box:hover::after,
+.container-card .box-2:hover::before,
+.container-card .box-2:hover::after {
+  opacity: 0.08;
+}
+
+.formation .container-card .box .name {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  color: #fff;    
+  width: 100%;
+  transform: translate3d(0,0,75px);
+  transition: 0.5s;
+  opacity: 0;
+  z-index: 10;
+}
+.formation .container-card .box:hover .name {
+  top: 15px;
+  opacity: 1;
+}
+
+.formation .container-card .box .circle-2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  transition: 0.5s;
+  background: #111;
+  transform-style: preserve-3d;
+  z-index: 10;
+  opacity: 10;
+  transform: translate3d(-50%,-50%,50px);
+}
+
+.formation .container-card .box .product {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 300px;
+  transition: 0.5s;
+  z-index: 15;
+  transition: 0.5s;
+  transform-style: preserve-3d;
+  transform: translate3d(-50%,-50%,50px) rotate(-15deg);
+
+}
+
+.formation .container-card .box:hover .product {
+  transform: translate3d(-50%,-50%,100px) ;
+}
+
+.container-card .box:nth-child(2) .circle {
+  background: #111;
+}
+/* ======================= */
+
 
 
 

@@ -41,6 +41,17 @@ img {
   --c12: #141414;
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+  
+}
+
 /* BACK TO TOP */
 .back-to-top{ 
   background-color: var(--c8);
