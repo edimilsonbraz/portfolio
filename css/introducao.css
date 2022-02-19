@@ -6,7 +6,7 @@
   font-size: 4.5rem;
   margin-bottom: 40px;
   line-height: 80px;
-  color: var(--c10);
+  color: var(--title-color);
   position: relative;
 }
 
@@ -27,7 +27,7 @@
 } */
 .introducao__text p {
   font-size: 1.5rem;
-  color: var(--c10);
+  color: var(--sub-title);
 }
 
 .introducao__text a {

@@ -1,10 +1,10 @@
 .cursos {
-  background-color: #FFF;
-  border-bottom: 1px solid #DDDDDD;
+  background-color: var(--bg-body-color);
+  border-bottom: 1px solid var(--border-color);
 }
 
 .cursos .sub-title {
-  color: var(--c10);
+  color: var(--sub-title);
   max-width: 4ch;
 }
 .cursos .sub-title span {
@@ -26,7 +26,7 @@
   margin-bottom: 15px;
 }
 .course .content-progress .content-progress-course p {
-  color: var(--c10);
+  color: var(--sub-title);
 
   text-align: right;
 }
@@ -88,7 +88,7 @@
 .training__extra h2 {
   font-size: 1.5rem;
   line-height: 1.4;
-  color: var(--c10);
+  color: var(--sub-title);
   text-transform: uppercase;
   margin-bottom: 30px;
   position: relative;
@@ -121,5 +121,5 @@
   margin-bottom: 20px;
 }
 .training__extra span {
-  color: var(--c11);
+  color: var(--icon-color);
 }

@@ -1,9 +1,9 @@
 .contato {
-  background-color: #FAFAFA;
-  margin-bottom: 2rem;
+  background-color: var(--bg-gray-color);
+  padding-bottom: 2rem;
 }
 .contato .sub-title {
-  color: var(--c10);
+  color: var(--sub-title);
   max-width: 4ch;
 }
 .contato .sub-title span {
@@ -16,14 +16,14 @@
 .description .contato__text {
   font-size: 1.5rem;
   line-height: 1.4;
-  color: var(--c11);
+  color: var(--title-color);
   margin-bottom: 60px;
 }
 .description img {
   display: inline-block;
 }
 .contato .social-midias {
-  color: var(--c11);
+  color: var(--icon-color);
   display: flex;
   gap: 30px;
 }
@@ -31,7 +31,7 @@
   margin-bottom: 15px;
 }
 .contato .social-midias li i { 
-  color: var(--c11);
+  color: var(--icon-color);
   font-size: 2rem;
   transition: .4s;
 }

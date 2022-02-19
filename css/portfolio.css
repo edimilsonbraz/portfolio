@@ -11,10 +11,10 @@
 
 }
 .border-top {
-  border-bottom: 1px solid #DDDDDD;
+  border-bottom: 1px solid var(--border-color);
 }
 .portfolio-top .content-top-title .title {
-  color: var(--c10);
+  color: var(--sub-title);
   font-size: 6rem;
   line-height: 1;
   word-break: break-all;  

@@ -1,14 +1,13 @@
 .formacao {
-  background-color: #FAFAFA;
-  color: #ffffff;
-  border-bottom: 1px solid #DDDDDD;
+  background-color: var(--bg-gray-color);
+  border-bottom: 1px solid var(--border-color);
 }
 .formation {
   padding: 120px 20px;
   position: relative;
 }
 .formacao .sub-title {
-  color: var(--c10);
+  color: var(--sub-title);
   max-width: 5ch;
 }
 .formacao .sub-title span {
@@ -19,12 +18,12 @@
   font-size: 1.5rem;
   text-align: left;
   line-height: 1.33;
-  color: #333;
+  color: var(--sub-title);
   max-width: 36ch;
   margin-bottom: 60px;
 }
 .formation__text strong {
-  color: #111;
+  color: var(--text-color);
 }
 
 .graduate__list {

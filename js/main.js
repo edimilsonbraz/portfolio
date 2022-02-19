@@ -1,5 +1,4 @@
 const backToTopButton = document.querySelector('.back-to-top')
-console.log(backToTopButton)
 
 function backToTop() {
 
@@ -13,3 +12,18 @@ function backToTop() {
 window.addEventListener('scroll', () => {
   backToTop()
 }) 
+
+
+//========= DARK MODE ===========//
+const body = document.querySelector('body')
+const icon = document.getElementById('icon-dark')
+
+icon.addEventListener('click', () => {
+  body.classList.toggle('dark')
+
+  if(document.body.classList.contains('dark')) {
+    icon.src = "img/sun.png";
+  }else{
+    icon.src = "img/moon.png";
+  }
+})

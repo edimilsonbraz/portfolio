@@ -1,5 +1,5 @@
 header {
-  background-color: #111111;
+  background-color: var(--bg-gray-color);
 }
 .header {
   display: flex;
@@ -22,7 +22,7 @@ header {
 .header-menu a {
   font-size: 1rem;
   line-height: 42px;
-  color: #FFF;
+  color: var(--sub-title);
   display: block;
   position: relative;
   border-bottom: 2px solid transparent;  
