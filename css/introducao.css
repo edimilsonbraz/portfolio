@@ -84,6 +84,8 @@
   .introducao {
     grid-template-columns: 1fr;
     text-align: center;
+    padding-bottom: 20px;
+    padding-top: 0;
   }
   .introducao img {
     display: none;

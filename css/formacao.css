@@ -219,15 +219,17 @@
     padding: 60px 20px;
     gap: 40px;
   }
-  .formation .sub-title {
-    color: #fff;
-
-  }
-  .formation .formation__text {
+   .formation .formation__text {
     font-size: 1.125rem;
   }
   .training__extra h2::before {
     position: initial;
     margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 425px) {
+  .formation .container-card {
+    justify-content: center;
   }
 }

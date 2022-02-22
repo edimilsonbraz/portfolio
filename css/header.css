@@ -10,6 +10,9 @@ header {
   max-width: 1200px;
   margin: 0 auto 3rem;
 }
+#btn-mobile {
+  display: none;
+}
 
 .header-menu {
   display: flex;
@@ -26,7 +29,7 @@ header {
   display: block;
   position: relative;
   border-bottom: 2px solid transparent;  
-  transition: .4s;
+  transition: border-color .4s;
 }
 .header-menu a:hover {
   border-color: #b6f829;
@@ -62,8 +65,53 @@ header {
     gap: 40px;
     padding: 20px 10px;
   }
-  .header-menu a {
+  /* .header-menu a {
     background-color: var(--c1);
     border-radius: 4px;
+  } */
+  
+}
+
+@media (max-width: 600px) {
+  .header {
+    margin: 0;
+  }
+  #btn-mobile {
+    display: block;
+  }
+  #btn-mobile #icon-mobile_close {
+    display: none;
+  }
+  
+  .header-menu {
+    /* display: block; */
+    position: absolute;
+    width: 100%;
+    top: 90px;
+    right: 0;
+    background-color: var(--bg-gray-color);
+    padding-left: 20px;
+    transition: 0.4s;
+    z-index: 999;
+    height: 0px;
+    visibility: hidden;
+    overflow: hidden;
+  }
+  
+  #nav.active .header-menu {
+    display: block;
+    justify-content: center;
+    height: 270px;
+    visibility: visible;
+    overflow: auto;
+  }
+  .header-menu .dark-mode {
+    margin-left: 0px;
+  }
+  #nav.active #icon-mobile {
+    display: none;
+  }
+  #nav.active #icon-mobile_close {
+    display: block;
   }
 }

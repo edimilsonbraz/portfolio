@@ -23,6 +23,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 10px;
+  padding: 12px;
   margin-bottom: 15px;
 }
 .course .content-progress .content-progress-course p {
@@ -122,4 +123,16 @@
 }
 .training__extra span {
   color: var(--icon-color);
+}
+
+@media (max-width: 425px) {
+  .cursos .container {
+    max-width: 425px;
+  }
+  .content-progress, .languages {
+    width: 400px;
+  }
+  .training__extra h2 {
+    margin-left: 25px;
+  }
 }
