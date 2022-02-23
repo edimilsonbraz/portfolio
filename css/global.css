@@ -27,7 +27,7 @@ img {
   display: block;
 }
 
-:root {
+body.light {
   --c1: #F5F5F5;
   --c2: #E0E0E0;
   --c3: #CCCCCC;

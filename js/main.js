@@ -18,15 +18,25 @@ window.addEventListener('scroll', () => {
 const body = document.querySelector('body')
 const icon = document.getElementById('icon-dark')
 
+const USER_THEME = 'light'
 icon.addEventListener('click', () => {
-  body.classList.toggle('dark')
 
-  if(document.body.classList.contains('dark')) {
-    icon.src = "img/sun.png";
-  }else{
+  if(body.classList.contains('dark')) {
+    body.classList.remove('dark')
+    body.classList.add('light')
     icon.src = "img/moon.png";
+    localStorage.setItem('theme','light')
   }
+  else{
+    body.classList.remove('light')
+    body.classList.add('dark')
+    icon.src = "img/sun.png";
+    localStorage.setItem('theme','dark')
+  }
+
 })
+//add class na body pegando do LocalStorage
+const themes = body.classList.add(localStorage.getItem('theme')) 
 
 
 //========= MENU MOBILE ===========//
@@ -37,13 +47,5 @@ menuMobile.addEventListener('click', toggleMenu);
 function toggleMenu() {
   const nav = document.getElementById('nav')
   nav.classList.toggle('active')
-
-  // const iconMobile = document.getElementById('icon-mobile')
-  
-  // if(document.nav.classList.contains('active')) {
-  //   iconMobile.src = "img/close_black_24dp.svg"
-  // }else {
-  //   iconMobile.src = "img/menu_black_24dp.svg"
-  // }
 
 }
