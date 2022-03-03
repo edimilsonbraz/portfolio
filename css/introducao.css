@@ -47,7 +47,7 @@
 
 
 /* RESPONSIVIDADE */
-@media (max-width: 1000px) {
+/* @media (max-width: 1000px) {
   .container {
     align-items: center;
   }
@@ -58,7 +58,6 @@
 @media (max-width: 800px) {
   .introducao img {
     width: 70%;
-    /* height: 70%; */
   }
   .introducao {
     grid-template-columns: 1fr 1fr;
@@ -78,9 +77,9 @@
   font-size: 1rem;
     
   }
-}
+} */
 
-@media (max-width: 540px) {
+/* @media (max-width: 540px) {
   .introducao {
     grid-template-columns: 1fr;
     text-align: center;
@@ -99,4 +98,4 @@
     top: -5px;
     left: 52px;
   }
-}
+} */

@@ -42,7 +42,7 @@
 
 
 /* RESPONSIVO */
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
   .contato .container {
     grid-template-columns: 1fr;
     gap: 40px;
@@ -62,4 +62,4 @@
   .contato .container {
     padding-top: 40px;
   }
-}
+} */

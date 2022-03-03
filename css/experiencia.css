@@ -75,7 +75,7 @@
 
 
 /* RESPONSIVO */
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
   .experience {
     grid-template-columns: 1fr;
     gap: 40px;
@@ -104,4 +104,4 @@
   .work {
     grid-template-columns: 1fr;
   }
-}
+} */

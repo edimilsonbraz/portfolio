@@ -10,7 +10,9 @@
 .cursos .sub-title span {
   color: #67dd0a;
 }
-
+.courses {
+  width: 100%;
+}
 /* CURSOS */
 .secondary-bar-progress {
   height: 12px;
@@ -125,7 +127,7 @@
   color: var(--icon-color);
 }
 
-@media (max-width: 425px) {
+/* @media (max-width: 425px) {
   .cursos .container {
     max-width: 425px;
   }
@@ -135,4 +137,4 @@
   .training__extra h2 {
     margin-left: 25px;
   }
-}
+} */

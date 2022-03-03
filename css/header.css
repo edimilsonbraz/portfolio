@@ -1,14 +1,15 @@
 header {
+  width: 100%;
   background-color: var(--bg-gray-color);
 }
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
-  height: 92px;
+  height: 70px;
   max-width: 1200px;
-  margin: 0 auto 3rem;
+  padding: 4%;
+  margin: 0 auto;
 }
 #btn-mobile {
   display: none;
@@ -58,21 +59,16 @@ header {
 }
 
 /* RESPONSIVIDADE */
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
   .header {
     flex-direction: column;
     justify-content: center;
     gap: 40px;
     padding: 20px 10px;
   }
-  /* .header-menu a {
-    background-color: var(--c1);
-    border-radius: 4px;
-  } */
-  
-}
+} */
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .header {
     margin: 0;
   }
@@ -84,7 +80,6 @@ header {
   }
   
   .header-menu {
-    /* display: block; */
     position: absolute;
     width: 100%;
     top: 90px;
@@ -114,4 +109,4 @@ header {
   #nav.active #icon-mobile_close {
     display: block;
   }
-}
+} */

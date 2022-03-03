@@ -107,10 +107,3 @@ body.dark {
   text-transform: uppercase;
   max-width: 4ch;
 }
-@media (max-width: 800px) {
-  .sub-title {
-    font-size: 3rem;
-    text-transform: capitalize;
-    max-width: initial !important;
-  }
-}
