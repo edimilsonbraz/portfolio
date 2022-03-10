@@ -161,7 +161,36 @@ body {
 }
 
 
+/* responsividade */
+@media (max-width: 865px) {
+  .portfolio-top .content-top {
+    display: block;
+    text-align: center;
+  }
+  .portfolio-top .content-top-title .title {
+    font-size: 3rem;
+    margin: 30px;
+  }
+  .portfolio-top .content-top-title p {
+    margin-bottom: 20px;
+  }
 
+  .portfolio-top .content-top img {
+    max-width: 100%;
+    width: 100%;
+    height: 330px;
+    object-fit: cover;
+  }
+  .portfolio-content .other-portfolio-content {
+    display: block;
+    width: 100%;
+  }
+  
+  .portfolio-content .other-portfolio-content .portfolio-card {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+}
 
 /* testes
 .janela {
