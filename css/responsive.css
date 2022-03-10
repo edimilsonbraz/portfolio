@@ -69,11 +69,12 @@
     height: 170px;
   }
   .container.courses {
-    grid-template-columns: 1fr 500px;
+    grid-template-columns: 1fr 80%;
     gap: 60px;
   }
   .courses {
-    width: 100%;
+    width: 90%;
+    margin: 0;
   }
   .description .contato__text {
     font-size: 1.2rem;
@@ -87,13 +88,13 @@
     display: none;
   }
   .container {
-    grid-template-columns: 1fr;
-    gap: 40px;
+    width: 100%;
+    display: block;
     text-align: center;
   }
   .container.courses {
-    grid-template-columns: 1fr;
-    
+    display: block;
+    margin: 0;
   }
   main .container img {
     display: none;
@@ -135,11 +136,6 @@
   .formation .container-card {
     justify-content: center;
   }
- 
-  .container.courses {
-    grid-template-columns: 600px;
-    margin-left: 30px;
-  }
   .content-progress,
   .content-progress-course {
     max-width: 450px;
@@ -148,6 +144,9 @@
   }
   .training__extra h2::before {
     left: 90px;
+  }
+  .contato .social-midias {
+    justify-content: center;
   }
 }
 
@@ -178,70 +177,7 @@
 
 
 
-/* SMALL DEVICES - SMARTPHONES */
-/* @media (max-width: 425px) {
-  header {
-    width: 100%;
-  }
-  .header {
-  }
-  .header a {
-    display: flex;
-    justify-content: center;
-  }
-  .header img {
-    width: 80%;
-    padding: 4%;
-  }
-} */
 
-/* SMALL DEVICES - SMARTPHONES */
-/* @media (max-width: 768px) {
-  .header {
-    display: block;
-    padding: 20px 10px;
-  }
-  #btn-mobile {
-    display: block;
-  }
-  #btn-mobile #icon-mobile_close {
-    display: none;
-  }
-  .header-menu {
-    position: absolute;
-    width: 100%;
-    top: 90px;
-    right: 0;
-    background-color: var(--bg-gray-color);
-    padding-left: 20px;
-    transition: 0.4s;
-    z-index: 999;
-    height: 0px;
-    visibility: hidden;
-    overflow: hidden;
-  }
-  #nav.active .header-menu {
-    display: block;
-    justify-content: center;
-    height: 270px;
-    visibility: visible;
-    overflow: auto;
-  }
-  .header-menu .dark-mode {
-    margin-left: 0px;
-  }
-  #nav.active #icon-mobile {
-    display: none;
-  }
-  #nav.active #icon-mobile_close {
-    display: block;
-  }
-} */
-
-
-/* MEDIUM DEVICES - TABLETS & DESKTOPS */
-/* @media (min-width: 960px) {
-} */
 
 
 
