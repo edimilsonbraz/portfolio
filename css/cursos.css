@@ -1,3 +1,6 @@
+.cursos .container {
+  padding: 120px 20px 20px;
+}
 .cursos {
   background-color: var(--bg-body-color);
   border-bottom: 1px solid var(--border-color);
@@ -14,127 +17,79 @@
   width: 100%;
 }
 /* CURSOS */
-.secondary-bar-progress {
-  height: 12px;
-  width: 550px;
-  background-color: #CCC;
-  position: relative;
-}
-.content-progress-course {
+.course {
+  width: 100%;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
-  gap: 10px;
-  padding: 12px;
-  margin-bottom: 15px;
-}
-.course .content-progress .content-progress-course p {
-  color: var(--sub-title);
-
-  text-align: right;
-}
-.secondary-bar-progress .progress-bar-100{
-  position: absolute;
-  height: 100%;
-  max-width: 100%;
-  background-color: #0fd439;
-  animation: progress-animation 5s;
-  animation-fill-mode: forwards;
-}
-.secondary-bar-progress .progress-bar-95{
-  position: absolute;
-  height: 100%;
-  max-width: 95%;
-  background-color: #0fd439;
-  animation: progress-animation 5s;
-  animation-fill-mode: forwards;
-}
-.secondary-bar-progress .progress-bar-90{
-  position: absolute;
-  height: 100%;
-  max-width: 90%;
-  background-color: #0fd439;
-  animation: progress-animation 5s;
-  animation-fill-mode: forwards;
-}
-.secondary-bar-progress .progress-bar-75{
-  position: absolute;
-  height: 100%;
-  max-width: 75%;
-  background-color: #0fd439;
-  animation: progress-animation 5s;
-  animation-fill-mode: forwards;
-}
-.secondary-bar-progress .progress-bar-50{
-  position: absolute;
-  height: 100%;
-  max-width: 50%;
-  background-color: #0fd439;
-  animation: progress-animation 5s;
-  animation-fill-mode: forwards;
 }
 
-.secondary-bar-progress .progress-bar-5{
-  position: absolute;
-  height: 100%;
-  max-width: 5%;
-  background-color: #0fd439;
-  animation: progress-animation 5s;
-  animation-fill-mode: forwards;
-}
 
-@keyframes progress-animation{
-  0% { width: 0%; } 
-  100% { width: 100%}
-}
-
-.training__extra h2 {
-  font-size: 1.5rem;
-  line-height: 1.4;
-  color: var(--sub-title);
-  text-transform: uppercase;
-  margin-bottom: 30px;
+/* BOX CIRCULAR */
+.box-course {
   position: relative;
+  margin: 50px;
 }
-.training__extra h2::before {
-  content: " ";
-  display: block;
-  width: 24px;
-  height: 24px;
+.box-course .text-course {
   position: absolute;
-  left: -36px;
-  top: 2px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+.box-course .text-course h2 {
+  font-size: 38px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.box-course .text-course small {
+  font-size: 18px;
+  display: block;
+}
+.box-course .text-course .html{
+  color: #52a8ff;
+}
+.box-course .text-course .css {
+  color: #ff0070;
+}
+.box-course .text-course .javascript {
+  color: #F7DF1E;
+}
+.box-course .text-course .react {
+  color: #00D8FF;
 }
 
-.courses h2::before {
-  background: url('../img/cursos.svg') no-repeat center center;
+.circle-course {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle-course .points {
+  width: 3px; 
+  height: 15px;
+  background: #fff;
+  position: absolute;
+  border-radius: 3px;
+  transform: rotate(calc(var(--i)*var(--rot))) translateY(-100px);
+  
+}
+.points.marked {
+  animation: glow 0.04s linear forwards;
+  animation-delay: calc(var(--i)* 0.05s);
 }
 
-.languages {
-  margin-top: 60px;
-}
-
-.languages h2::before {
-  background: url('../img/idiomas.svg') no-repeat center center;
-}
-
-.training__extra li {
-  font-size: 1.125rem;
-  line-height: 1.1;
-  margin-bottom: 20px;
-}
-.training__extra span {
-  color: var(--icon-color);
-}
-
-/* @media (max-width: 425px) {
-  .cursos .container {
-    max-width: 425px;
+@keyframes glow
+ {
+   0% { 
+     background: #0007;
+     box-shadow: none;
+   }
+   100% { 
+    background: #0f0;
+    box-shadow: 0 0 10px #0f0;
   }
-  .content-progress, .languages {
-    width: 400px;
-  }
-  .training__extra h2 {
-    margin-left: 25px;
-  }
-} */
+ }

@@ -73,8 +73,14 @@
     gap: 60px;
   }
   .courses {
-    width: 90%;
     margin: 0;
+  }
+  .circle-course {
+    width: 150px;
+    height: 150px;
+  }
+  .box-course .text-course h2 {
+    font-size: 28px;
   }
   .description .contato__text {
     font-size: 1.2rem;
